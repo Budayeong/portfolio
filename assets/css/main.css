@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #333D51 !important;
 		}
 
 	strong, b {
@@ -139,6 +139,9 @@ input, select, textarea {
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
+		.nav_title {
+			color: #333D51;
+		}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			border: 0;
@@ -183,9 +186,10 @@ input, select, textarea {
 		top: -0.5em;
 	}
 
+	/* 작은 밑줄 */
 	hr {
 		border: 0;
-		border-bottom: solid 2px #f4f4f4;
+		border-bottom: solid 2px #f3f0e5;
 		margin: 2.25em 0;
 	}
 
@@ -1785,7 +1789,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #333D51;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1852,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #333D51;
 		}
 
 	select {
@@ -1953,7 +1957,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #333D51;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2402,9 +2406,9 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #333D51;
 				border-radius: 100%;
-				color: #ffffff;
+				color: #f6f5f2;
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2618,7 +2622,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #333D51;
 			color: #ffffff !important;
 		}
 
@@ -2700,7 +2704,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #333D51;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2712,11 +2716,11 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #f6f5f2;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #f6f5f2;
 			}
 
 		#header header p {
@@ -2728,7 +2732,7 @@ input, select, textarea {
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #f6f5f2 !important;
 			}
 
 		#header > header {
@@ -2772,7 +2776,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #5b677d;
 				}
 
 		#header > nav {
@@ -2789,7 +2793,8 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					/* border-top: solid 2px #485369; */
+					border-top: solid 2px #3C4658;
 					display: block;
 					padding: 0;
 				}
@@ -2800,15 +2805,15 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #f6f5f2 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: #f6f5f2;
+							color: #333D51 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2818,14 +2823,18 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		/* background: #fff; */
+		background: #f6f5f2;
 		padding-right: 23em;
 	}
 
 /* Main */
 
+	/* 큰 밑줄 */
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		/* border-top: solid 6px #f4f4f4; */
+		/* border-top: solid 6px #efece2; */
+		border-top: solid 6px #f3f0e5;
 	}
 
 		#main > section > .container {
@@ -2838,8 +2847,10 @@ input, select, textarea {
 
 /* Footer */
 
+	/* 푸터 배경 */
 	#footer {
-		background: #fafafa;
+		/* background: #fafafa; */
+		background: #f6f5f2;
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
@@ -3076,8 +3087,8 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
-						color: #ffffff;
+						background: #333D51;
+						color: #f6f5f2;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
