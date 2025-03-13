@@ -2692,6 +2692,10 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
+			.features article .inner p {
+				margin-bottom: 4px;
+			}
+
 /* Header */
 
 	#header {

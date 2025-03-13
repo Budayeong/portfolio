@@ -5,3 +5,44 @@
 .intro {
   font-weight: 700;
 }
+
+.project_etc {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.project_etc .page {
+  width: 50%;
+}
+.project_etc .page img {
+  width: 100%;
+} 
+.project_etc .page p {
+  font-size: 12px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.features .inner h4 {
+  line-height: 0;
+
+}
+
+.features .inner .date {
+  font-size: 14px;
+}
+.features .inner .date span {
+  font-weight: 600;
+}
+
+.features .inner .description {
+  font-size: 17px;
+  line-height: 1.5;
+}
+.features .inner .description span {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
