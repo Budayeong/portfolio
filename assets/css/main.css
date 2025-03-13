@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	letter-spacing: -0.3px;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1791,6 +1793,7 @@ input, select, textarea {
 	header.major h2 {
 		color: #333D51;
 		font-size: 3.5em;
+		letter-spacing: -3px;
 	}
 
 		header.major h2 + p {
